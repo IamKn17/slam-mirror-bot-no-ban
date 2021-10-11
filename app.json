@@ -18,7 +18,7 @@
     },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "required": true
+        "required": false
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
@@ -40,7 +40,7 @@
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
-        "required": true
+        "required": false
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
@@ -60,19 +60,19 @@
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "required": false
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "required": false
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from https://dashboard.heroku.com/account.",
-        "required": true
+        "required": false
       },
       "HEROKU_APP_NAME": {
         "description": "Add the Heroku app name here.",
-        "required": true
+        "required": false
       },
       "UPTOBOX_TOKEN": {
         "description": "Uptobox premium token to mirror uptobox links. Get it from https://uptobox.com/my_account.",
